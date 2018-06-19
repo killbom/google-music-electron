@@ -1,8 +1,8 @@
 {
-  "name": "google-music-electron",
+  "name": "youtube-music-electron",
   "description": "Desktop app for Google Music on top of Electron",
   "version": "2.18.0",
-  "homepage": "https://github.com/twolfson/google-music-electron",
+  "homepage": "https://github.com/twolfson/youtube-music-electron",
   "author": {
     "name": "Todd Wolfson",
     "email": "todd@twolfson.com",
@@ -10,23 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/google-music-electron.git"
+    "url": "git://github.com/twolfson/youtube-music-electron.git"
   },
   "bugs": {
-    "url": "https://github.com/twolfson/google-music-electron/issues"
+    "url": "https://github.com/twolfson/youtube-music-electron/issues"
   },
   "license": "Unlicense",
-  "main": "lib/google-music-electron",
+  "main": "lib/youtube-music-electron",
   "engines": {
     "node": ">= 6.0.0"
   },
   "bin": {
-    "google-music-electron": "bin/google-music-electron.js"
+    "youtube-music-electron": "bin/youtube-music-electron.js"
   },
   "scripts": {
-    "debug-repl": "rc /tmp/repl/google-music-electron.sock",
+    "debug-repl": "rc /tmp/repl/youtube-music-electron.sock",
     "lint": "twolfson-style lint lib/",
-    "start": "node bin/google-music-electron.js",
+    "start": "node bin/youtube-music-electron.js",
     "test": "npm run lint"
   },
   "dependencies": {

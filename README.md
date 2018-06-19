@@ -1,10 +1,10 @@
-# google-music-electron [![Build status](https://travis-ci.org/twolfson/google-music-electron.png?branch=master)](https://travis-ci.org/twolfson/google-music-electron)
+# youtube-music-electron [![Build status](https://travis-ci.org/twolfson/youtube-music-electron.png?branch=master)](https://travis-ci.org/twolfson/youtube-music-electron)
 
 Desktop app for [Google Music][] on top of [Electron][]
 
 **Features:**
 
-- Google Music as a standalone application
+- Youtube Music as a standalone application
 - Tray for quick play/pause/quit and tooltip with information
 - Media key shortcuts
 - MPRIS integration (for GNU/Linux desktop environments)
@@ -25,14 +25,14 @@ This was written as a successsor to [google-music-webkit][]. When upgrading betw
 [node]: http://nodejs.org/
 
 ## Getting Started
-`google-music-electron` can be installed globally via `npm`:
+`youtube-music-electron` can be installed globally via `npm`:
 
 ```js
-# Install google-music-electron via npm
-npm install -g google-music-electron
+# Install youtube-music-electron via npm
+npm install -g youtube-music-electron
 
-# Run google-music-electron
-google-music-electron
+# Run youtube-music-electron
+youtube-music-electron
 ```
 
 When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/assets/icon.png).
@@ -40,16 +40,16 @@ When the application has launched, it will appear in your taskbar and via a tray
 ![Screenshot](docs/screenshot.png)
 
 ## Newsletter
-Interested in hearing about updates and new releases of `google-music-electron`?
+Interested in hearing about updates and new releases of `youtube-music-electron`?
 
-[Subscribe to our newsletter!](https://groups.google.com/forum/#!forum/google-music-electron)
+[Subscribe to our newsletter!](https://groups.google.com/forum/#!forum/youtube-music-electron)
 
 ## MPRIS integration
 If you are on GNU/Linux and your desktop environment supports [MPRIS][], you can install our [MPRIS][] integration via:
 
 ```bash
-google-music-electron install-mpris
-# Once this succeeds, MRPIS will be integrated on `google-music-electron` restart
+youtube-music-electron install-mpris
+# Once this succeeds, MRPIS will be integrated on `youtube-music-electron` restart
 ```
 
 ![MPRIS screenshot](docs/mpris-screenshot.png)
@@ -57,13 +57,13 @@ google-music-electron install-mpris
 [MPRIS]: http://specifications.freedesktop.org/mpris-spec/latest/
 
 ## Updating
-`google-music-electron` can be updated via `npm`:
+`youtube-music-electron` can be updated via `npm`:
 
 ```js
-# Update google-music-electron to a newer version via npm
-npm update -g google-music-electron
+# Update youtube-music-electron to a newer version via npm
+npm update -g youtube-music-electron
 # Alternatively, the following can be used as well to specify a version
-# npm install -g google-music-electron@latest
+# npm install -g youtube-music-electron@latest
 ```
 
 ## Documentation
@@ -71,7 +71,7 @@ npm update -g google-music-electron
 We have a few CLI options available for you:
 
 ```
-  Usage: google-music-electron [options] [command]
+  Usage: youtube-music-electron [options] [command]
 
 
   Commands:
@@ -85,9 +85,9 @@ We have a few CLI options available for you:
     -S, --skip-taskbar          Skip showing the application in the taskbar
     --minimize-to-tray          Hide window to tray instead of minimizing
     --hide-via-tray             Hide window to tray instead of minimizing (only for tray icon)
-    --allow-multiple-instances  Allow multiple instances of `google-music-electron` to run
+    --allow-multiple-instances  Allow multiple instances of `youtube-music-electron` to run
     --verbose                   Display verbose log output in stdout
-    --debug-repl                Starts a `replify` server as `google-music-electron` for debugging
+    --debug-repl                Starts a `replify` server as `youtube-music-electron` for debugging
 ```
 
 ## Development
@@ -103,22 +103,22 @@ Follow the steps below to get a development copy set up:
 
 ```bash
 # Clone our repository
-git clone https://github.com/twolfson/google-music-electron.git
-cd google-music-electron/
+git clone https://github.com/twolfson/youtube-music-electron.git
+cd youtube-music-electron/
 
 # Install our dependencies and dev dependencies
 npm install
 
-# Start up `google-music-electron`
+# Start up `youtube-music-electron`
 npm start
 ```
 
-After running the above steps, a copy of `google-music-electron` should begin running.
+After running the above steps, a copy of `youtube-music-electron` should begin running.
 
 ![Screenshot](docs/screenshot.png)
 
 #### Adding local setup as a global installation
-After getting our local development set up, we can go one step further and get `google-music-electron` working on our CLI as if it were installed via `npm install -g`.
+After getting our local development set up, we can go one step further and get `youtube-music-electron` working on our CLI as if it were installed via `npm install -g`.
 
 ```bash
 # Link local copy as a global copy
@@ -126,8 +126,8 @@ After getting our local development set up, we can go one step further and get `
 #   or your local copy's permissions may get messed up
 npm link
 
-# Run `google-music-electron` for local copy
-google-music-electron
+# Run `youtube-music-electron` for local copy
+youtube-music-electron
 ```
 
 More information on `npm link` can be found in `npm's` documentation:

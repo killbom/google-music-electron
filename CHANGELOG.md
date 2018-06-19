@@ -1,4 +1,4 @@
-# google-music-electron changelog
+# youtube-music-electron changelog
 2.18.0 - Upgraded to electron@1.8.4 to fix GitHub vulnerability warning
 
 2.17.1 - Replaced Gratipay with support me page
@@ -21,7 +21,7 @@
 
 2.11.0 - Followed back rename of `gmusic.js` to  `google-music`
 
-2.10.1 - Repaired `google-music-electron` failing to launch due to a lack of `window-info`
+2.10.1 - Repaired `youtube-music-electron` failing to launch due to a lack of `window-info`
 
 2.10.0 - Added window size/location preservation via @JordanRobinson in #42
 
@@ -47,7 +47,7 @@
 
 2.1.1 - Upgraded `electron-rebuild` to fix `node@4.0` (in Electron) issues
 
-2.1.0 - Upgraded to `google-music-electron@3.2.0` for cross-version selectors and added `setTimeout` loop for binding initialization
+2.1.0 - Upgraded to `youtube-music-electron@3.2.0` for cross-version selectors and added `setTimeout` loop for binding initialization
 
 2.0.1 - Added `Node.js` version to about window
 

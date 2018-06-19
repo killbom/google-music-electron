@@ -1,8 +1,8 @@
 {
   "menu": [{
-    "label": "google-music-electron",
+    "label": "youtube-music-electron",
     "submenu": [{
-      "label": "About google-music-electron",
+      "label": "About youtube-music-electron",
       "command": "application:about"
     }, {
       "type": "separator"
@@ -13,7 +13,7 @@
     }, {
       "type": "separator"
     }, {
-      "label": "Hide google-music-electron",
+      "label": "Hide youtube-music-electron",
       "role": "hide",
       "accelerator": "Command+H"
     }, {

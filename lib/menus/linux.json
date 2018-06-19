@@ -59,7 +59,7 @@
   }, {
     "label": "&Help",
     "submenu": [{
-      "label": "About google-music-electron",
+      "label": "About youtube-music-electron",
       "command": "application:about"
     }]
   }]

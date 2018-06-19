@@ -15,7 +15,7 @@ if (program.args.length === 0) {
   var args = [googleMusicElectronPath];
 
   // Append all arguments after our node invocation
-  // e.g. `node bin/google-music-electron.js --version` -> `--version`
+  // e.g. `node bin/youtube-music-electron.js --version` -> `--version`
   args = args.concat(process.argv.slice(2));
 
   // Run electron on our application and forward all stdio
