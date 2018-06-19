@@ -33,6 +33,10 @@
   }, {
     "label": "Edit",
     "submenu": [{
+      "label": "Search",
+      "command": "application:search",
+      "accelerator": "Command+F"
+    }, {
       "label": "Undo",
       "role": "undo",
       "accelerator": "Command+Z"
